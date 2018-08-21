@@ -1,0 +1,14 @@
+<h2>Change Password for <%= session[:username] %></h2>
+<form action="/change_password" method="post">
+  <div>
+    <label for="change password">New Password:
+      <input type="password" id="new_password" name="new_password">
+    </label>
+  </div>
+  <button type="submit">Change Password</button>
+</form>
+
+<h2>Delete your account.</h2>
+<form action="/delete_account" method="post">
+  <button type="submit">Delete your account.</button>
+</form>

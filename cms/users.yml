@@ -1,0 +1,61 @@
+---
+admin:
+  :password: "$2a$10$JOIi/N6R0dXMiE2yLrQ7Wu8CzCkPk0wudiede.nKSUm1pYUkRjlAa"
+mark:
+  :password: "$2a$10$z/IwndHiicc5EBT3/1IHP.2rI/sjUpfLCHGdkvFQAtio5r7PL.0wS"
+oliver:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$LnSt6as8fCP4Sx05he3iNuJcHzsgbs1jpP7jfAq.1jgBZvhgNH3Wu"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$LnSt6as8fCP4Sx05he3iNu"
+    checksum: JcHzsgbs1jpP7jfAq.1jgBZvhgNH3Wu
+damesmark@planet.nl:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$CV0zcAgkuxFfeNf43y.IEeM.vzOuXEVBnd08cQb4EmX1BwhkvqEn2"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$CV0zcAgkuxFfeNf43y.IEe"
+    checksum: M.vzOuXEVBnd08cQb4EmX1BwhkvqEn2
+tester:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$ibGV7dGM7hScJgKwGISo/e5NEg1dsO9ZbtYfsBaWDSZ7ufa3pCXL2"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$ibGV7dGM7hScJgKwGISo/e"
+    checksum: 5NEg1dsO9ZbtYfsBaWDSZ7ufa3pCXL2
+tester@mail.com:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$MyUn3m9l47E5RB3ZTtrFo.NyZ7KJ8Iv2w9vAKCmPyvyLmj6ndAFrS"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$MyUn3m9l47E5RB3ZTtrFo."
+    checksum: NyZ7KJ8Iv2w9vAKCmPyvyLmj6ndAFrS
+jan123:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$M5ICKuUNN7RpoMqmQJfVP.7.LoF2x6dWg0i0AhczMql0zHGJMl646"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$M5ICKuUNN7RpoMqmQJfVP."
+    checksum: 7.LoF2x6dWg0i0AhczMql0zHGJMl646
+tester1:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$8O4loy6VmgonQ/7Bmwk1y.fhnRTW0q8U3GxMsuNFODnKwmpA25ygC"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$8O4loy6VmgonQ/7Bmwk1y."
+    checksum: fhnRTW0q8U3GxMsuNFODnKwmpA25ygC
+jan_boer:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$x8RdvOBCTAb6dHu9AOX02OJ/rTwYttT.iJQyKqT8BR0zzIOaw/P7e"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$x8RdvOBCTAb6dHu9AOX02O"
+    checksum: J/rTwYttT.iJQyKqT8BR0zzIOaw/P7e
+testing_account:
+  :password: !ruby/string:BCrypt::Password
+    str: "$2a$10$SwGkrP4MouDjYdtQ4WwHGOJcIGdz/RSMznkz5gMia35aYCMmVBAgG"
+    version: 2a
+    cost: 10
+    salt: "$2a$10$SwGkrP4MouDjYdtQ4WwHGO"
+    checksum: JcIGdz/RSMznkz5gMia35aYCMmVBAgG

@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="/stylesheets/cms.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <% if session[:message] %>
+      <p id="flash-message"><%= session.delete(:message) %></p>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>
